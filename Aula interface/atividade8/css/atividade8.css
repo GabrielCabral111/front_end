@@ -1,0 +1,168 @@
+body{
+    margin: 0%;
+}
+
+main{
+    width: 80%;
+    height: auto;
+    background-color: antiquewhite;
+    margin-top: 0%;
+    margin: auto;
+
+}
+
+#verde{
+    width: 100%;
+    height: 10em;
+    background-image: linear-gradient(to right, #bdf59a 1%, #a2ff64 , #2afa00 );   
+}
+#vermelho{
+    width: 100%;
+    height: 23em;
+    background-color: #c97069;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#caixaver{
+    width: 100%;
+    height: 90%;
+    background-color: #b30404;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 4%;
+    
+}
+.bloco{
+    width: 45%;
+    height: 85%;
+    background-color: #e28881;
+    
+}
+#azul{
+    width: 100%;
+    height: 20em;
+    background-color: #4cfff0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.branco{
+    width: 19%;
+    height: 85%;
+    background-color: #ffffff;
+    border-radius: 6px;
+    text-align: center;
+    
+}
+
+#laranja{
+    width: 100%;
+    height: 30em;
+    background-color: #ee9145;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#caixalara{
+    width: 100%;
+    height: 90%;
+    background-color: #ff7300;
+}
+
+#amarelho{
+    width: 100%;
+    height: 27em;
+    background-color: #f3aa6e;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#caixaama{
+    width: 100%;
+    height: 90%;
+    background-color: #fdfa27;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.azul-escuro{
+    width: 45%;
+    height: 85%;
+    background-color: #062a8f;
+}
+
+.verde{
+    width: 45%;
+    height: 85%;
+    background-color: #5be488;}
+
+#preto{
+    width: 100%;
+    height: 7em;
+    background-color: #000;
+}
+/*--------- verersao mobile ------------------*/
+@media only screen and (min-width:450px){
+    @media only screen and (max-width:651px){
+
+        #caixaver, #caixaama {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .bloco{
+            width: 85%;
+            height: 45%;
+        }
+
+        #azul{
+            padding-top: 5%;
+            justify-content: center;
+            display: grid;
+            grid-template-columns: 43% 43%;
+            grid-template-rows: 45% 45%;
+            gap: 10px; /* espaço nas colunas*/
+        }
+
+        .branco{
+            width: 100%;
+            height: 100%;
+         }
+
+        #laranja{
+        height: 20em;
+        }
+
+        .azul-escuro{
+        width: 85%;
+        height: 45%;
+
+        }
+
+        .verde{
+        width: 85%;
+        height: 45%;
+        }
+
+        #preto{
+        color: #fff;
+        height: 5em;
+         
+        }
+
+
+    
+        
+    
+    }
+     
+}
