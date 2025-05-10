@@ -1,0 +1,546 @@
+body{
+    margin: 0%;
+    background-image: url(../Atividade10_imagens/imagens/guitarra_fundo_body.jpg);
+    background-repeat: no-repeat;
+    font-size: 100%;
+
+}
+
+
+
+main{
+    position: relative;
+    width: 80%;
+    height: auto;
+    margin-top: 0%;
+    margin: auto;
+    
+
+}
+
+#verde{
+    position: relative;
+    width: 100%;
+    height: 10em;
+    background-image: url(../Atividade10_imagens/imagens/guitarras_header.jpg);
+    background-size: cover;
+    display: grid;
+    grid-template-rows: 2fr 2fr 2fr 2fr ;
+    grid-template-columns: 8fr 3fr 3fr 14fr 1fr    ;
+    
+}
+nav{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    grid-row: 3;
+    grid-column: 4;
+ 
+    
+
+}
+
+nav a {
+    
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    width: 25%;
+    text-align: center;
+    height: 23px;
+    font-size: 100%;
+    
+}
+
+nav a:hover{
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 20px;
+    transition: 0.5s all;
+}
+
+
+#vermelho{
+    position: relative;
+    width: 100%;
+    height: 28em;
+    background-color: #c9696988;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#caixaver{
+    position: relative;
+    width: 100%;
+    height: 80%;
+    background-color: #b10202;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 4%;
+    
+}
+.bloco1{
+    position: relative;
+    width: 45%;
+    height: 85%;
+    background-color: #e97067;
+    padding-left: 10px;
+    display: flex;
+    justify-content: flex-start;  
+    flex-direction: column; 
+    border-radius: 4px;
+    font-size: 90%;    
+}
+.bloco1 h1,p{
+    position: relative;
+    
+    width: 100%;
+
+}
+
+.bloco2{
+    position: relative;
+    width: 45%;
+    height: 85%;
+    
+}
+
+.bloco2 img{
+    width: 100%;
+    height: 100%;
+    
+}
+#azul{
+    position: relative;
+    width: 100%;
+    height: 20em;
+    background-color: #4cfff0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.branco{
+    position: relative;
+    width: 19%;
+    height: 85%;
+    background-color: #ffffff;
+    border-radius: 6px;
+    text-align: center;
+      
+    
+}
+
+.branco img{
+    width: 100%;
+    height: 50%;
+    text-align: center;
+}
+
+.branco h3{
+    position: relative;
+        margin: 0%;
+        width: 100%;
+        height: 35%;
+        font-size: 80%;   
+}
+
+.branco h4{
+    position: relative;
+    color: red;
+    margin: 0%;
+    width: 100%;
+    height: 15%;
+    font-size: 60%; 
+}
+
+#laranja{
+    position: relative;
+    width: 100%;
+    height: 30em;
+    background-color: #ee9145;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#caixalara{
+    position: relative;
+    width: 100%;
+    height: 90%;
+    background-color: #ff7300;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 4%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+.caixala1{
+    position: relative;
+    width: 45%;
+    height: 85%;
+    background-color: #e28881;
+}
+
+.caixala1 iframe{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.caixala2{
+    width: 45%;
+    height: 85%;
+    background-color: #e28881;
+    display: flex;
+    justify-content: flex-start;  
+    flex-direction: column; 
+    border-radius: 4px;
+    color: #fff;    
+    padding-left: 10px;
+}
+
+
+
+#amarelho{
+    width: 100%;
+    height: 27em;
+    background-color: #f3aa6e;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#caixaama{
+    width: 100%;
+    height: 90%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.azul-escuro{
+    width: 45%;
+    height: 85%;
+}
+
+textarea{
+    width: 50%;
+    height: 45%;
+}
+
+#comentario{
+    width: 100%;
+    height: 10%;
+}
+
+
+
+.verde{
+    width: 45%;
+    height: 85%;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+
+}
+
+#redes{
+    width: 100%;
+    height: 85%;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
+    
+}
+
+#redes h2{
+    margin: 2%;
+    color: #1d43eb;
+    padding-left: 10%;
+}
+#sociais{
+    width: 100%;
+    height: 80%;
+    padding-left: 60px;
+    display: flex;
+    
+    justify-content: center; 
+    align-items: flex-start; 
+    flex-direction: row;  
+
+}
+
+#sociais a{
+    margin: 0%;
+    text-decoration: none;
+    width: 26%;
+    height: 50%;
+}
+
+#sociais a img{
+    width: 100%;
+    height: 90%;
+
+}
+
+
+#preto{
+    width: 100%;
+    height: 10em;
+    background-color: #000;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: row;
+}
+#rodape{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column;
+    color: #fff; 
+}
+
+#rodape h2,h3{
+    
+    margin: 0%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+#rodapesocial{
+    width: 40%;
+    height: 45%;
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start; 
+    flex-direction: row;  
+}
+
+#rodapesocial a{
+    margin: 0%;
+    text-decoration: none;
+    width: 30%;
+    height: 60%;
+}
+
+#rodapesocial img{ 
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------- verersao mobile ------------------*/
+@media only screen and (min-width:450px){
+    @media only screen and (max-width:651px){
+
+        .caixala2{
+            display: none;
+        } 
+        .verde{
+            display: none;
+        }
+
+        #verde{
+            position: relative;
+            width: 100%;
+            height: 10em;
+            display: flex;
+    
+            justify-content: flex-start; 
+            align-items: end; 
+      /* flex-flow: row; */ 
+            flex-direction: row;  
+            align-content: center;
+            
+        }
+        nav{
+            position: relative;
+            width: 100%;
+            height: 40px;
+            border-radius: 6px;
+            background-color: #fff;
+            
+         
+            
+        
+        }
+        
+        nav a {
+            
+            font-size: 18px;
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            width: 25%;
+            text-align: center;
+            height: 23px;
+            font-size: 100%;
+            
+        }
+        
+        nav a:hover{
+            background-color: #000000;
+            color: #ffffff;
+            border-radius: 20px;
+            transition: 0.5s all;
+        }
+
+
+
+
+        #vermelho{
+            position: relative;
+            width: 100%;
+            height: 30em;
+            background-color: #c9696988;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #caixaver{
+            position: relative;
+            width: 100%;
+            height: 90%;
+            background-color: #b10202;
+            padding-bottom: 4%;
+            flex-direction: column;
+            align-items: center;
+            
+        }
+        .bloco1{
+            position: relative;
+            width: 90%;
+            height: 61%;
+            background-color: #e97067;
+            padding-left: 10px;
+            border-radius: 4px;    
+        }
+        .bloco1 h1,p{
+            position: relative;
+            width: 100%;
+            font-size: 80%;
+        
+        }
+        
+        .bloco2{
+            position: relative;
+            width: 93%;
+            height: 33%;
+            
+        }
+        
+        .bloco2 img{
+            width: 100%;
+            height: 100%;
+            
+        }
+
+        #caixaver, #caixaama {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .bloco{
+            width: 85%;
+            height: 45%;
+        }
+
+        #azul{
+            padding-top: 5%;
+            justify-content: center;
+            display: grid;
+            grid-template-columns: 43% 43%;
+            grid-template-rows: 45% 45%;
+            gap: 10px; /* espaço nas colunas*/
+        }
+
+        .branco{
+            width: 100%;
+            height: 100%;
+         }
+
+         .branco img{
+            width: 100%;
+            height: 50%;
+         }
+
+        .branco h3{
+            font-size: 80%;
+            
+         }
+         .branco h4{
+            margin-top: 3%;
+            font-size: 60%;
+            
+         }
+
+        #laranja{
+        height: 20em;
+        }
+
+        .caixala1{
+            width: 90%;
+            height: 85%;
+        }
+
+        .azul-escuro{
+        width: 85%;
+        height: 45%;
+
+        }
+
+
+        #preto{
+        color: #fff;
+        height: 10em;
+         
+    }
+
+    #rodape{
+        width: 80%;
+        height: 60%;
+    }
+
+
+    
+        
+    
+    }
+     
+}
